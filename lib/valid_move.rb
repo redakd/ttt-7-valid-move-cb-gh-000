@@ -4,6 +4,8 @@ def valid_move?(board, index)
     true
   elsif index.between(1, 9)
     false
+  else 
+    true
   end
 end
 # re-define your #position_taken? method here, so that you can use it in the #valid_move? method above.
